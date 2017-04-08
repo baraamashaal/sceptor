@@ -1,0 +1,56 @@
+{
+  "vsicons.presets.angular": true,
+  "files.exclude": {
+    "node_modules/": true,
+    "e2e/": true,
+    "**/*.spec.ts": true,
+    "src/main.ts": true,
+    "src/polyfills.ts": true,
+    "src/test.ts": true,
+    "*.json": true,
+    "src/*.json": true,
+    "*.js": true,
+    "src/environments/": true,
+    ".editorconfig": true,
+    ".gitignore": true
+  },
+  "todohighlight.keywords": [{
+      "text": "// NOTE:", // custom text to be highlighted
+      "color": "#ffeb3b", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "yellow" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },{
+      "text": " see ", // custom text to be highlighted
+      "color": "#2196f3", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },{
+      "text": " use ", // custom text to be highlighted
+      "color": "#2196f3", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },{
+      "text": "// Third-party", // custom text to be highlighted
+      "color": "#03A9F4", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },{
+      "text": "start", // custom text to be highlighted
+      "color": "#4CAF50", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    },{
+      "text": "end", // custom text to be highlighted
+      "color": "#E91E63", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    }
+    ,{
+      "text": "// END", // custom text to be highlighted
+      "color": "#E91E63", // the text color, any css color identifier is valid
+      "backgroundColor": "#212121", // the text background color
+      "overviewRulerColor": "#212121" //the color of the ruler mark on the scroll bar. use rgba() and define transparent colors to play well with other decorations.
+    }
+
+  ]
+}
